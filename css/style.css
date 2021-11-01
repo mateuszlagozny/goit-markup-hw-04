@@ -17,7 +17,7 @@ body {
 /* Stylowanie sekcji header */
 header {
     
-    background-color: #ffff;
+    background-image: url("images/img-tlo.png");
 }
 
 .header {
