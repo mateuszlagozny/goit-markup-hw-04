@@ -13,11 +13,36 @@ body {
     
 }
 
+/* Stylowanie icons */
+
+.icons-about-us {
+    width: 65px;
+    height: 70px;
+    background-color: #F5F4FA;
+    margin-top: 30px;
+    
+}
+.icons-main {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-top: 94px;
+    text-align: center;
+}
+
+.icons-social-media {
+    width: 20px;
+    height: 20px;
+    margin-right: 22px;
+    margin-bottom: 30px;
+}
+
+
 
 /* Stylowanie sekcji header */
 header {
     
-    background-image: url("images/img-tlo.png");
+    background-color: #ffff;
 }
 
 .header {
