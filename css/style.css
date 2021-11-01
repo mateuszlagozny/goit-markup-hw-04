@@ -1,0 +1,190 @@
+/* Style ogólne dla całego dokumentu */
+body {
+    font-family: "Roboto";
+    background-color: #E5E5E5;
+    line-height: 1.5;
+}
+
+.container {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+
+/* Stylowanie sekcji header */
+header {
+    
+    background-color: #ffff;
+}
+
+.header {
+    display: flex;
+    font-weight: 500;
+   
+
+}
+
+.menu-header {
+    margin-right: 25px;
+    font-size: 14px;
+}
+span {
+    color: #2196F3;
+}
+
+.logotyp {
+    font-family: "Raleway";
+    font-size: 26px;
+}
+#contact {
+    margin-left: auto;
+}
+.contact-email {
+    margin-right: 50px;
+}
+.link {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Stylowanie sekcji motto */
+
+#motto {
+    background-color: #2F303A;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    color: #ffff;
+}
+
+.order-service {
+
+    margin-bottom: 250px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.order-service-button {
+    background-color: #2196F3;
+    color: #ffff;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: #2196F3;
+    width: 200px;
+    height: 50px;
+
+}
+
+
+/* Stylowanie sekcji main */
+.main-content {
+    margin: 0 auto;
+}
+h2 {
+    margin-left: 15px;
+}
+p {
+    color: #757575;
+    padding: 15px;
+}
+
+/* Stylowanie sekcji our-project */
+
+
+.our-project,
+.images-our-project,
+#our-team {
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+
+/* Stylowanie sekcji our-team */
+figure{
+    display: inline-block;
+    margin: 15px;
+    background-color: #ffff;
+    border-radius: 4px;
+    
+
+}
+.figure {
+    margin: 0 auto;
+}
+figcaption {
+    padding: 15px;
+
+}
+
+
+.name-team {
+    font-weight: 500;
+    color: black;
+}
+
+/* Stylowanie linków a */
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover,
+a:focus {
+    color: #2196F3;
+}
+
+/* Stylowanie sekcji footer */
+
+footer {
+    background-color: #2F303A;
+}
+.address {
+    color: #ffff;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.link-address,
+.city-address {
+    color: #ffff;
+    opacity: 60%;
+    font-size: 14px;
+}
+
+
+/* Stylowanie podstrony portfolio */
+
+#portfolio {
+    background-color: #ffff;
+}
+
+.main-portfolio {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #F5F4FA;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #2196F3;
+    color: #ffff;
+}
