@@ -1,7 +1,8 @@
 /* Style ogólne dla całego dokumentu */
+
 body {
     font-family: "Roboto";
-    background-color: #E5E5E5;
+    background-color: #ffff;
     line-height: 1.5;
 }
 
@@ -15,6 +16,11 @@ body {
 
 /* Stylowanie icons */
 
+.contact-email:hover,
+.contact-phone:hover {
+    fill: #2196F3
+}
+
 .icons-about-us {
     width: 65px;
     height: 70px;
@@ -22,6 +28,7 @@ body {
     margin-top: 30px;
     
 }
+
 .icons-main {
     width: 270px;
     height: 120px;
@@ -33,20 +40,47 @@ body {
 .icons-social-media {
     width: 20px;
     height: 20px;
-    margin-right: 22px;
-    margin-bottom: 30px;
+ 
 }
 
 .link-social-media {
+    display: inline-flex;
     fill: #AFB1B8;
+    margin-bottom: 30px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+.link-social-media:hover,
+.link-social-media-footer:hover {
+    background-color: #2196F3;
+   
+    
+
 }
 
 .icons-social-media:hover {
-    fill: #2196F3;
-}
-.link-social-media-footer {
     fill: #ffff;
 }
+
+.link-social-media-footer {
+    fill: #ffff;
+    display: inline-flex;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    background-color:grey;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 
 .icons-our-customer {
@@ -55,8 +89,15 @@ body {
     margin-right: 30px;
     border: 1px solid;
     margin-bottom: 100px;
+    fill: #afb1b8;
     
 }
+
+.icons-our-customer:hover {
+    color: #2196F3;
+    fill: #2196F3;
+}
+
 
 .link-customers {
     display: inline;
@@ -173,18 +214,21 @@ p {
 
 
 /* Stylowanie sekcji our-team */
-figure{
+
+#our-team {
+    background-color: #F5F4FA;
+}
+
+figure {
     display: inline-block;
     margin: 15px;
     background-color: #ffff;
     border-radius: 4px;
-    box-shadow: 5px 5px 15px;
-    
+}
+.our-team {
+   box-shadow: 5px 5px 15px; 
+}
 
-}
-.figure {
-    margin: 0 auto;
-}
 figcaption {
     padding: 15px;
 
@@ -209,6 +253,16 @@ a:focus {
     color: #2196F3;
 }
 
+
+/* Stylowanie sekcji customers */
+
+#customers {
+    background-color: #ffff;
+}
+.customers-container {
+    background-color: ffff;
+}
+
 /* Stylowanie sekcji footer */
 
 footer {
@@ -226,8 +280,12 @@ footer {
     opacity: 60%;
     font-size: 14px;
 }
-.link-social-media-footer {
+
+.join-us {
+    color: #ffff;
+    font-weight: 700;
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -245,10 +303,17 @@ footer {
 
 .button {
     background-color: #F5F4FA;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 22px;
 }
 
 .button:hover,
 .button:focus {
     background-color: #2196F3;
     color: #ffff;
+}
+
+.images-portfolio:hover {
+    box-shadow: 5px 5px 15px;
 }
